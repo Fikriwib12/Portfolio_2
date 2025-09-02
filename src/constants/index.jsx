@@ -17,6 +17,7 @@ import {
   RiPhpLine,
   RiWordpressFill,
   RiGitMergeFill,
+  RiNextjsFill,
 } from "@remixicon/react";
 import { RiCodeSSlashLine } from "@remixicon/react";
 
@@ -32,36 +33,12 @@ export const PROFILE = {
   name: "Fikri Wibowo",
   role: "Web Developer",
   subheading:
-    "Experienced web developer with 1 year of expertise, adept at creating dynamic front-end and back-end solutions using modern tools.",
+    "Web Developer specializing in Next.js and Laravel with hands-on experience managing  WordPress, Wix, and Shopify CMS. Adept at building responsive interfaces, integrating APIs, and applying basic SEO improvements.",
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "Barakuda Marine",
-    description: ".",
-    techStack: ["Wordpress", "Elementor"],
-    imgSrc: barakuda,
-    link: "https://barakudamarine.id/",
-  },
-  {
-    id: 2,
-    title: "Balian Flooring",
-    description: ".",
-    techStack: ["Wordpress", "Elementor"],
-    imgSrc: balianFloor,
-    link: "https://balianflooring.id/",
-  },
-  {
-    id: 3,
-    title: "MegaKapuas Dinamik",
-    description: ".",
-    techStack: ["Wordpress", "Elementor"],
-    imgSrc: mkd,
-    link: "https://megakapuas.com/",
-  },
-  {
-    id: 4,
     title: "Nava Booking Web",
     description: "Website for booking apartment facilities in mobile view.",
     techStack: ["Wix", "Wix Velo"],
@@ -69,7 +46,7 @@ export const PROJECTS = [
     link: "https://app.navaapp.id/",
   },
   {
-    id: 5,
+    id: 2,
     title: "Nava Landing Page",
     description: "Landing page for apartment facility booking advertisement.",
     techStack: ["Wix", "Wix Velo"],
@@ -77,22 +54,49 @@ export const PROJECTS = [
     link: "https://www.navaapp.id/",
   },
   {
-    id: 6,
+    id: 3,
+    title: "MegaKapuas Dinamik",
+    description:
+      "Conwood sales website and company profile of PT Mega Kapuas Dinamik",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: mkd,
+    link: "https://megakapuas.com/",
+  },
+  {
+    id: 4,
     title: "Digihouse Warehouse Management System",
     description:
       "DigiHouse is a comprehensive web application designed for a warehouse rental system. It features a sleek landing page and an intuitive admin dashboard.  ensuring a responsive and dynamic user experience. DigiHouse streamlines the management of warehouse rentals, providing users and administrators with efficient tools to handle operations seamlessly.",
-    techStack: ["React", "Tailwind Css", "axios", "Golang", "Mysql"],
+    techStack: ["React.js", "Tailwind Css", "axios", "Golang", "Mysql"],
     imgSrc: digihouse,
     link: "https://digihouse-jaya.netlify.app/",
   },
   {
-    id: 7,
+    id: 5,
     title: "Webihouse Real Estate Advertisment Platform",
     description:
       "WebiHouse is a real estate platform for buying, selling, and renting houses, built with ReactJS and MockAPI. Developed as part of the Kampus Merdeka independent study program with Alterra, it offers a modern, user-friendly interface.",
-    techStack: ["React", "MockApi", "Tailwind Css"],
+    techStack: ["React.js", "MockApi", "Tailwind Css"],
     imgSrc: webihouse,
     link: "https://webihouse-2.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Barakuda Marine",
+    description:
+      "Floating cube product catalog and company profile of PT Sungai Indah Lestari",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: barakuda,
+    link: "https://barakudamarine.id/",
+  },
+  {
+    id: 7,
+    title: "Balian Flooring",
+    description:
+      "Website containing a catalog of interior products in the form of wall panels, duradeck and spc flooring",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: balianFloor,
+    link: "https://balianflooring.id/",
   },
   {
     id: 8,
@@ -102,15 +106,6 @@ export const PROJECTS = [
     techStack: ["Html", "Css", "Js", "Php", "Wordpress"],
     imgSrc: thi,
     link: "https://taharicainstruments.com/",
-  },
-  {
-    id: 9,
-    title: "Metal Detector Indonesia",
-    description:
-      "Metal Detector Indonesia is an e-commerce website for selling metal detector products. I built a custom WordPress theme from scratch using HTML, CSS, JS, and PHP during my internship as a front-end developer at PT Taharica Group.",
-    techStack: ["Html", "Css", "Js", "Php", "Wordpress"],
-    imgSrc: mdi,
-    link: "https://www.metaldetectorindonesia.com/",
   },
 ];
 
@@ -146,6 +141,10 @@ export const SKILLS = [
   {
     name: "Laravel",
     icon: <RiGitMergeFill className="text-red-400" />,
+  },
+  {
+    name: "NextJs",
+    icon: <RiNextjsFill />,
   },
 ];
 
