@@ -1,7 +1,12 @@
 import digihouse from "../assets/digihouse.webp";
 import webihouse from "../assets/webihouse.webp";
+import navaLanding from "../assets/navaLanding.webp";
+import navaBooking from "../assets/navaBooking.webp";
 import thi from "../assets/thi.webp";
 import mdi from "../assets/mdi.webp";
+import mkd from "../assets/MKD.png";
+import balianFloor from "../assets/balianFlor.png";
+import barakuda from "../assets/barakuda.png";
 import personImage from "../assets/testimonial.webp";
 
 import {
@@ -33,6 +38,46 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
+    title: "Barakuda Marine",
+    description: ".",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: barakuda,
+    link: "https://barakudamarine.id/",
+  },
+  {
+    id: 2,
+    title: "Balian Flooring",
+    description: ".",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: balianFloor,
+    link: "https://balianflooring.id/",
+  },
+  {
+    id: 3,
+    title: "MegaKapuas Dinamik",
+    description: ".",
+    techStack: ["Wordpress", "Elementor"],
+    imgSrc: mkd,
+    link: "https://megakapuas.com/",
+  },
+  {
+    id: 4,
+    title: "Nava Booking Web",
+    description: "Website for booking apartment facilities in mobile view.",
+    techStack: ["Wix", "Wix Velo"],
+    imgSrc: navaBooking,
+    link: "https://app.navaapp.id/",
+  },
+  {
+    id: 5,
+    title: "Nava Landing Page",
+    description: "Landing page for apartment facility booking advertisement.",
+    techStack: ["Wix", "Wix Velo"],
+    imgSrc: navaLanding,
+    link: "https://www.navaapp.id/",
+  },
+  {
+    id: 6,
     title: "Digihouse Warehouse Management System",
     description:
       "DigiHouse is a comprehensive web application designed for a warehouse rental system. It features a sleek landing page and an intuitive admin dashboard.  ensuring a responsive and dynamic user experience. DigiHouse streamlines the management of warehouse rentals, providing users and administrators with efficient tools to handle operations seamlessly.",
@@ -41,7 +86,7 @@ export const PROJECTS = [
     link: "https://digihouse-jaya.netlify.app/",
   },
   {
-    id: 2,
+    id: 7,
     title: "Webihouse Real Estate Advertisment Platform",
     description:
       "WebiHouse is a real estate platform for buying, selling, and renting houses, built with ReactJS and MockAPI. Developed as part of the Kampus Merdeka independent study program with Alterra, it offers a modern, user-friendly interface.",
@@ -50,7 +95,7 @@ export const PROJECTS = [
     link: "https://webihouse-2.vercel.app/",
   },
   {
-    id: 3,
+    id: 8,
     title: "Taharica Instruments",
     description:
       "Taharica Instruments is an e-commerce website for selling instrument products. I developed a custom WordPress theme from scratch using HTML, CSS, JS, and PHP during my internship as a front-end developer at PT Taharica Group.",
@@ -59,7 +104,7 @@ export const PROJECTS = [
     link: "https://taharicainstruments.com/",
   },
   {
-    id: 4,
+    id: 9,
     title: "Metal Detector Indonesia",
     description:
       "Metal Detector Indonesia is an e-commerce website for selling metal detector products. I built a custom WordPress theme from scratch using HTML, CSS, JS, and PHP during my internship as a front-end developer at PT Taharica Group.",
@@ -105,6 +150,22 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
+  {
+    yearRange: "Jan 2025 - Present",
+    role: "Website Developer",
+    company: "PT MegaKapuas Dinamik",
+    description:
+      "I developedand managing Wordpress websites, creating custom landing pages and product catalogs, and Build custom dashboards using Next.js for lead data storage and marketing analytics",
+    techStack: ["Javascript", "Php", "Wordpress", "Mysql"],
+  },
+  {
+    yearRange: "Nov 2024 - Jan 2025",
+    role: "Wix Developer",
+    company: "PT Snillo",
+    description:
+      "I developed a landing page and booking website for apartment facilty reservation using Wix , and •	Enhaced user experience throught responsive and intuitive design",
+    techStack: ["Javascript", "Php", "Wordpress", "Mysql"],
+  },
   {
     yearRange: "July 2024 - Nov 2024",
     role: "Frontend Developer Intern",
